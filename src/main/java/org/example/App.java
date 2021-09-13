@@ -33,7 +33,7 @@ public class App
         quantity = input.nextInt();
 
         subTotal = subTotal + price*quantity;
-        System.out.println("Subtotal: $" + subTotal);
+        System.out.printf(("Subtotal: $%.2f\n"), subTotal);
 
 
         double tRate = 0.055;
